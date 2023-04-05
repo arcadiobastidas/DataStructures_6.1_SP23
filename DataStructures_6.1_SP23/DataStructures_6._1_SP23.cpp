@@ -16,15 +16,15 @@ int main()
     bool exit = false;
     
     //add firstSet to set1
-    // for(int i = 0; i < 5; i++)
-    // {
-    //     set1.add(firstSet[i]);
-    // }
-    // //add secondSet to set2
-    // for(int i = 0; i < 5; i++)
-    // {
-    //     set2.add(secondSet[i]);
-    // }
+     for(int i = 0; i < 5; i++)
+     {
+         set1.add(firstSet[i]);
+     }
+     //add secondSet to set2
+     for(int i = 0; i < 5; i++)
+     {
+         set2.add(secondSet[i]);
+     }
 
 
 
@@ -46,14 +46,14 @@ int main()
         {
             // 1.Print the two sets
             case 1:
-               cin >> set1;
+               
                cout << set1;
                 break;
             // 2.Union of two sets
             case 2:
-                result = set1.unionOfSets(set2);
+                result = set1.Union(set2);
                 cout << "Union of two sets: ";
-                result.printSet();
+                cout <<result;
                 cout << endl;
                 break;
             
