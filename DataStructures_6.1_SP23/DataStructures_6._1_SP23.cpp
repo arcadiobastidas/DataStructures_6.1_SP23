@@ -1,6 +1,7 @@
 #include "IntegerSet.h"
 
 #include <iostream>
+#include <set>
 
 using namespace std;
 
@@ -17,5 +18,7 @@ int main()
         set2.add(secondSet[i]);
     }
 
+
+    return 0;
     
 }
