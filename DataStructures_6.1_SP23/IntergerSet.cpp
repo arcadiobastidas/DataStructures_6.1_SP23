@@ -167,7 +167,7 @@ ostream& operator<<(ostream& out, const IntegerSet& other)
  {
      out << "The set contents: { ";
      for (int i = 1; i <= 100; i++) {
-         if (other.boolList.getEntry(i)) {
+         if (other.contains(i)) {
              out << i << " ";
          }
      }

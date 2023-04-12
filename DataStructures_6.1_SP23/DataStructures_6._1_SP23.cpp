@@ -10,14 +10,18 @@ int main()
 {
     IntegerSet set1;
     IntegerSet set2;
-    IntegerSet result;
+    IntegerSet unionOfSets;
     int item = 1;
 
     int test[3] = {1,2,3};
     int test2[3] = {4,2,3};
     
 
-    cout << set1.differenceOfSets(set2);
+    set1.add(test, 3);
+    set2.add(test2, 3);
+    unionOfSets = set1 + set2;
+
+    cout << unionOfSets << endl;
 
 
     
