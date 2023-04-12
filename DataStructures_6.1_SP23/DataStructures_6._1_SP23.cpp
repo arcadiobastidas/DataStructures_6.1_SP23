@@ -13,8 +13,15 @@ int main()
     IntegerSet result;
     int item = 1;
 
-    cin >> set1;
-    cout << set1 << endl;
+    int test[3] = {1,2,3};
+    int test2[3] = {4,2,3};
+    
+
+    cout << set1.differenceOfSets(set2);
+
+
+    
+    
 
     return 0;
     

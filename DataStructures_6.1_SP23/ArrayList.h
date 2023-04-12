@@ -16,7 +16,7 @@ template<class ItemType>
 class ArrayList : public ListInterface<ItemType>
 {
 private:
-    static const int DEFAULT_CAPACITY = 5; // Small capacity to test for a full list 
+    static const int DEFAULT_CAPACITY = 100; // Small capacity to test for a full list 
     ItemType items[DEFAULT_CAPACITY];      // Array of list items
     int itemCount;                         // Current count of list items 
     int maxItems;                          // Maximum capacity of the list
